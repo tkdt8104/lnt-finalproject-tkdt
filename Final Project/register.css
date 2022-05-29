@@ -1,0 +1,81 @@
+.register-title {
+    padding: 2rem;
+    text-align: center;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.form input, select {
+    width: 100%;
+}
+
+select {
+    border: 2px solid black;
+    padding: 0.3rem;
+}
+
+.form input {
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form div {
+    margin-bottom: 1.5rem;
+}
+
+#male, #female, #submit {
+    width: fit-content;
+}
+
+#submit {
+    border-bottom: none;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+}
+
+.submit-button {
+    align-self: center;
+}
+
+h5.warning {
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+    color: red;
+    display: none;
+}
+
+.regis-data.valid input {
+    border-bottom: 2px solid green;
+}
+
+.regis-data.invalid input {
+    border-bottom: 2px solid red;
+}
+
+.regis-data.valid select {
+    border: 2px solid green;
+}
+
+.regis-data.invalid select {
+    border: 2px solid red;
+}
